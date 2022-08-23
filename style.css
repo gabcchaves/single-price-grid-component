@@ -146,4 +146,45 @@ button:hover {
 	filter: brightness(1.2);
 }
 
-/* 
+/* Mobile settings */
+@media screen and (max-width: 1080px) {
+	.card {
+		width: 85%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	p {
+		font-size: 3vh;
+	}
+
+	.card-title {
+		font-size: 4vh;
+	}
+
+	.card-caption {
+		font-size: 3vh;
+	}
+	
+	.card-pricing {
+		border-radius: 0;
+		font-size: 3vh;
+	}
+
+	.card-pricing p {
+		margin-bottom: 10%;
+	}
+
+	.card-reasons {
+		border-bottom-left-radius: inherit;
+	}
+
+	.card section {
+		padding: 3vh;
+	}
+
+	.card-pricing strong, .card-reasons strong {
+		font-size: 3vh;
+	}
+}
